@@ -49,6 +49,7 @@ function calculate() {
     const formatter = new Intl.NumberFormat('ru')
     totalPriceElement.innerText = formatter.format(totalPrice)
 }
+calculate()
 
 
 for (const input of inputs) {
